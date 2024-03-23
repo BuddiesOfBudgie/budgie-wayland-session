@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Budgie Desktop on XWayland
+Comment=This session logs you into the Budgie Desktop
+Exec=/usr/bin/magpie-wm --kiosk /usr/bin/budgie-desktop
+TryExec=/usr/bin/magpie-wm
+Icon=
+Type=Application
+DesktopNames=Budgie;GNOME
