@@ -22,4 +22,6 @@ cat > ${RUN_SCRIPT} << EOF
 exec $@
 EOF
 
+chmod +x ${RUN_SCRIPT}
+
 magpie-wm --kiosk "$RUN_SCRIPT"
