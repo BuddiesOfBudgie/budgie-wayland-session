@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Budgie Desktop on XWayland
+Name=Budgie Desktop on Wayland
 Comment=This session logs you into the Budgie Desktop
 Exec=/usr/bin/magpie-wm --kiosk /usr/bin/budgie-desktop
 TryExec=/usr/bin/magpie-wm

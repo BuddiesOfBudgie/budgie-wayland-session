@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Budgie Desktop on KWin XWayland
+Name=Budgie Desktop on KWin Wayland
 Comment=This session logs you into the Budgie Desktop
 Exec=/usr/bin/kwin_wayland --xwayland --no-lockscreen --locale1 --exit-with-session=/usr/bin/budgie-desktop
 TryExec=/usr/bin/kwin_wayland
