@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Budgie Desktop on labwc
+Comment=This session logs you into the Budgie Desktop
+Exec=/usr/bin/labwc --session=/usr/bin/budgie-desktop
+TryExec=/usr/bin/labwc
+Icon=
+Type=Application
+DesktopNames=Budgie;GNOME
