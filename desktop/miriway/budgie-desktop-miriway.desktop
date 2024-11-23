@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Budgie Desktop on Miriway
+Comment=This session logs you into the Budgie Desktop
+Exec=/usr/libexec/budgie-miriway-wrapper
+TryExec=/usr/libexec/budgie-miriway-wrapper
+Icon=
+Type=Application
+DesktopNames=Budgie;GNOME
