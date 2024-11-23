@@ -14,8 +14,8 @@ include(GNUInstallDirs)
 
 option(ANACONDA_INITIAL_SETUP "Install configuration for Anaconda Initial Setup?" OFF)
 option(SDDM "Install configuration for SDDM?" ON)
-option(LABWC_DEVELOPMENT "Install desktop session file for labwc for development?" OFF)
 option(KWIN_DEVELOPMENT "Install desktop session file using KWin for development?" OFF)
+option(LABWC_DEVELOPMENT "Install desktop session file for labwc for development?" OFF)
 option(MIRIWAY_DEVELOPMENT "Install desktop session configuration for Miriway for development?" OFF)
 
 

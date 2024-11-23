@@ -11,10 +11,10 @@ There are a number of runtime requirements for various aspects of this project:
 
 This requires [Budgie Desktop] and [Magpie v1].
 
-Additionally, we make available sessions for labwc, Kwin (`kwin_wayland`), and Miriway. These are strictly for development / testing purposes and should not be considered officially supported by Buddies of Budgie. You will receive no assistance nor issue resolution for any compositor other than Magpie V1.
+Additionally, we make available sessions for Kwin (`kwin_wayland`), labwc, and Miriway. These are strictly for development / testing purposes and should not be considered officially supported by Buddies of Budgie. You will receive no assistance nor issue resolution for any compositor other than Magpie V1.
 
-- When using [labwc], 0.7.2 or newer is required.
 - When using [KWin], KWin 6.0.0 or newer is required.
+- When using [labwc], 0.7.2 or newer is required.
 - When using [Miriway], Miriway 24.10 or newer is required.
 
 ### SDDM
