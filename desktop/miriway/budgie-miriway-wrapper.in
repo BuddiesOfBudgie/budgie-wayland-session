@@ -29,7 +29,7 @@ if [ ! -e "${XDG_CONFIG_HOME}/budgie/miriway-shell.config" ]; then
     install -Dpm0644 "@CMAKE_INSTALL_FULL_DATADIR@/budgie-wayland-session/miriway-shell.config"  "${XDG_CONFIG_HOME}/budgie"
 fi
 
-miriway-shell --display-config=static="${XDG_CONFIG_HOME}/miriway-shell.display-config" --add-wayland-extensions=all &
+miriway-shell --display-config=static="${XDG_CONFIG_HOME}/miriway-shell.display-config" --add-wayland-extensions=all --x11-displayfd 5 5>${x11_display_file} &
 miriway_pid=$!
 
 # Wait until the server starts
