@@ -1,29 +1,47 @@
 # Budgie Wayland session
 
-This project contains the scripts and data files for setting up the Budgie Desktop
-to run in a Wayland environment.
+This project contains various scripts and data files used by the Buddies of Budgie team to facilitate **testing** Budgie Desktop against a wide range of Wayland compositors.
 
-## Requirements
+### Important
 
-There are a number of runtime requirements for various aspects of this project:
+**None** of the compositors referenced in this repository should be viewed as endorsed by the team for use with Budgie Desktop. Budgie Desktop may not function fully or at all with any compositors referenced in this repository.
 
-### Desktop
+You will receive **no** assistance nor issue resolution for any compositor that is not considered to be supported by the team. In the event a compositor is viewed by the team as suitable for use with Budgie Desktop, any files related to it shall be moved to budgie-desktop itself.
 
-This requires [Budgie Desktop] and [Magpie v1].
+## Layout
 
-Additionally, we make available sessions for Kwin (`kwin_wayland`) and Miriway. These are strictly for development / testing purposes and should not be considered officially supported by Buddies of Budgie. You will receive no assistance nor issue resolution for any compositor other than Magpie V1.
+### desktop/
 
+This contains various session files and any supplemental files used to get Budgie Desktop to _potentially_ function or run with a range of compositors, for example:
+
+- [KWin] (`kwin_wayland`)
+- [Magpie v1] ("v1" development branch)
+- [Miriway]
+
+**Requirements:**
+
+- [Budgie Desktop]
+- When using [Magpie v1], v1 branch is required.
 - When using [KWin], KWin 6.0.0 or newer is required.
 - When using [Miriway], Miriway 24.10 or newer is required.
 
-### SDDM
+### initial-setup/
 
-This requires [SDDM] 0.21.0 and [Layer Shell Qt] 6.0.0 or newer. SDDM needs to be built
-with Qt 6 for both the core and the greeter.
+This contains any files used to test Anaconda Initial Setup with magpie ("v1" development branch) in kiosk mode. Do **not** build or use this unless you are intentionally performing magpie v1 testing with Anacoda Initial Setup specifically.
 
-### Anaconda Initial Setup (optional)
+**Requirements:**
 
-If your distribution ships [Anaconda Initial Setup], you need version 0.3.99 or newer.
+- [Magpie v1]
+- [Anaconda Initial Setup] 0.3.99 or newer.
+
+### sddm/
+
+This contains any files used to test SDDM with magpie ("v1" development branch). Do **not** build or use this unless you are intentionally performing magpie v1 testing with SDDM specifically.
+
+**Requirements:**
+
+- [Magpie v1]
+- This requires [SDDM] 0.21.0 and [Layer Shell Qt] 6.0.0 or newer. SDDM needs to be built with Qt 6 for both the core and the greeter.
 
 # Licensing
 
