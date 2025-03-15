@@ -13,8 +13,9 @@ project(budgie-wayland-session
 include(GNUInstallDirs)
 
 option(ANACONDA_INITIAL_SETUP "Install configuration for Anaconda Initial Setup?" OFF)
-option(SDDM "Install configuration for SDDM?" ON)
+option(SDDM "Install Magpie v1 configuration for SDDM?" OFF)
 option(KWIN_DEVELOPMENT "Install desktop session file using KWin for development?" OFF)
+option(MAGPIE_DEVELOPMENT "Install desktop session file using Magpie v1 for development?" OFF)
 option(MIRIWAY_DEVELOPMENT "Install desktop session configuration for Miriway for development?" OFF)
 
 
